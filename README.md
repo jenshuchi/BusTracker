@@ -30,3 +30,7 @@ ex.
 3. Get the running buses that are near bus stops
 4. If any of the stops are ahead of the target stop by 3~5 stops, notify users with LINE notify API
 5. Sleep for several seconds and start from step (3) to check for next round
+
+## Future Improvement
+- Apply PTX account to avoid API responses with 429 (API rate limit exceeded)
+- Store notification records to not notify user repeatedly
