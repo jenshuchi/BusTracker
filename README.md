@@ -12,3 +12,18 @@
 3. Get the running buses that are near bus stops
 4. If any of the stops are ahead of the target stop by 3~5 stops, notify users with LINE notify API
 5. Sleep for several seconds and start from step (3) to check for next round
+
+# Usage
+```bash
+$ export LINE_TOKENS=token001,token002,token003
+$ python main.py <bus_number> <direction, 0:去程, 1:返程> <target_stop>
+```
+> ex.
+> export LINE_TOKEN=my-line-token
+> python main.py 672 1 博仁醫院
+
+# LINE notify token
+1. Login to https://notify-bot.line.me/my/
+2. `發行權杖`
+3. Choose `透過一對一聊天室接收LINE Notify的通知`
+4. Copy and remember the token
