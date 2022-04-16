@@ -11,7 +11,7 @@ IS_DEV = os.getenv("ENV") == "development"
 
 async def get_route(session, bus_number, direction):
     if IS_DEV:
-        with open("StopOfRoute_672.json", "r") as f:
+        with open("data/StopOfRoute_672.json", "r") as f:
             data = json.load(f)
         return data[0]["Stops"]
 
@@ -42,7 +42,7 @@ def get_target_stop_sequence(target_stop_name, stops):
 async def get_running_buses(session, bus_number, direction):
     if IS_DEV:
         i = random.randint(1, 4)
-        with open(f"RealTimeNearStop_672-{i}.json", "r") as f:
+        with open(f"data/RealTimeNearStop_672-{i}.json", "r") as f:
             data = json.load(f)
         return data
 
