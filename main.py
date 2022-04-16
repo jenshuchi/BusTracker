@@ -1,7 +1,9 @@
-import os
-import json
-import aiohttp
 import asyncio
+import json
+import os
+import sys
+
+import aiohttp
 
 async def get_route(session, bus_number, direction):
     # async with session.get(f"https://ptx.transportdata.tw/MOTC/v2/Bus/StopOfRoute/City/Taipei?%24filter=RouteName%2FZh_tw%20eq%20'{bus_number}'%20and%20Direction%20eq%20{direction}&%24top=30&%24format=JSON",
@@ -69,11 +71,7 @@ async def line_notify(session, access_token, message):
             print(f"Error: {await response.json()}")
 
 
-async def main():
-    bus_number = "672"
-    direction = 1
-    target_stop_name = "博仁醫院"
-
+async def main(bus_number, direction, target_stop_name):
     tokens = os.getenv("LINE_TOKENS").split(",")
 
     async with aiohttp.ClientSession() as session:
@@ -91,4 +89,8 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    bus_number = sys.argv[1]
+    direction = int(sys.argv[2])
+    target_stop_name = sys.argv[3]
+
+    asyncio.run(main(bus_number, direction, target_stop_name))
