@@ -7,8 +7,8 @@
 $ export LINE_TOKENS=token001,token002,token003
 $ python main.py <bus_number> <direction, 0:去程, 1:返程> <target_stop>
 ```
-> ex.
-> export LINE_TOKEN=my-line-token
+ex.  
+> export LINE_TOKEN=my-line-token  
 > python main.py 672 1 博仁醫院
 
 ## LINE notify token
