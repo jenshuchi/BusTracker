@@ -11,9 +11,9 @@ IS_DEV = os.getenv("ENV") == "development"
 
 async def get_route(session, bus_number, direction):
     if IS_DEV:
-    with open("StopOfRoute_672.json", "r") as f:
-        data = json.load(f)
-    return data[0]["Stops"]
+        with open("StopOfRoute_672.json", "r") as f:
+            data = json.load(f)
+        return data[0]["Stops"]
 
     async with session.get(f"https://ptx.transportdata.tw/MOTC/v2/Bus/StopOfRoute/City/Taipei?%24filter=RouteName%2FZh_tw%20eq%20'{bus_number}'%20and%20Direction%20eq%20{direction}&%24top=30&%24format=JSON",
             headers={
@@ -41,10 +41,10 @@ def get_target_stop_sequence(target_stop_name, stops):
 
 async def get_running_buses(session, bus_number, direction):
     if IS_DEV:
-    i = random.randint(1, 4)
-    with open(f"RealTimeNearStop_672-{i}.json", "r") as f:
-        data = json.load(f)
-    return data
+        i = random.randint(1, 4)
+        with open(f"RealTimeNearStop_672-{i}.json", "r") as f:
+            data = json.load(f)
+        return data
 
     async with session.get(f"https://ptx.transportdata.tw/MOTC/v2/Bus/RealTimeNearStop/City/Taipei?%24filter=RouteName%2FZh_tw%20eq%20'{bus_number}'%20and%20Direction%20eq%20{direction}&%24top=30&%24format=JSON",
             headers={
@@ -58,9 +58,9 @@ async def get_running_buses(session, bus_number, direction):
             return await response.json()
 
 
-def has_bus_near_target(target, buses):
+def any_bus_near_target(target, buses):
     bus_location_diffs = [target - int(bus["StopSequence"]) for bus in buses]
-    return any([d >=3 and d <= 5 for d in bus_location_diffs])
+    return any([d >= 2 and d <= 4 for d in bus_location_diffs])
 
 
 async def line_notify(session, access_token, message):
@@ -89,7 +89,7 @@ async def main(bus_number, direction, target_stop_name):
         while True:
             buses = await get_running_buses(session, bus_number, direction)
 
-            if has_bus_near_target(target, buses):
+            if any_bus_near_target(target, buses):
                 for token in tokens:
                     asyncio.create_task(line_notify(session, token, f"Bus {bus_number} is coming"))
 
