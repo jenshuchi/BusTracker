@@ -1,0 +1,92 @@
+[
+  {
+    "PlateNumb": "282-U3",
+    "OperatorID": "700",
+    "RouteUID": "TPE10785",
+    "RouteID": "10785",
+    "RouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "SubRouteUID": "TPE107850",
+    "SubRouteID": "107850",
+    "SubRouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "Direction": 1,
+    "StopUID": "TPE38933",
+    "StopID": "38933",
+    "StopName": {
+      "Zh_tw": "捷運景平站",
+      "En": "MRT Jingping Sta."
+    },
+    "StopSequence": 30,
+    "DutyStatus": 1,
+    "BusStatus": 0,
+    "A2EventType": 0,
+    "GPSTime": "2022-04-16T11:26:08+08:00",
+    "SrcUpdateTime": "2022-04-16T11:26:50+08:00",
+    "UpdateTime": "2022-04-16T11:26:53+08:00"
+  },
+  {
+    "PlateNumb": "FAA-159",
+    "OperatorID": "700",
+    "RouteUID": "TPE10785",
+    "RouteID": "10785",
+    "RouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "SubRouteUID": "TPE107850",
+    "SubRouteID": "107850",
+    "SubRouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "Direction": 1,
+    "StopUID": "TPE38908",
+    "StopID": "38908",
+    "StopName": {
+      "Zh_tw": "南京新村",
+      "En": "Nanjing New Village"
+    },
+    "StopSequence": 6,
+    "DutyStatus": 1,
+    "BusStatus": 0,
+    "A2EventType": 0,
+    "GPSTime": "2022-04-16T11:26:24+08:00",
+    "SrcUpdateTime": "2022-04-16T11:26:50+08:00",
+    "UpdateTime": "2022-04-16T11:26:53+08:00"
+  },
+  {
+    "PlateNumb": "FAA-162",
+    "OperatorID": "700",
+    "RouteUID": "TPE10785",
+    "RouteID": "10785",
+    "RouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "SubRouteUID": "TPE107850",
+    "SubRouteID": "107850",
+    "SubRouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "Direction": 1,
+    "StopUID": "TPE38927",
+    "StopID": "38927",
+    "StopName": {
+      "Zh_tw": "得和路",
+      "En": "Dehe Rd."
+    },
+    "StopSequence": 25,
+    "DutyStatus": 1,
+    "BusStatus": 0,
+    "A2EventType": 0,
+    "GPSTime": "2022-04-16T11:26:33+08:00",
+    "SrcUpdateTime": "2022-04-16T11:26:50+08:00",
+    "UpdateTime": "2022-04-16T11:26:53+08:00"
+  }
+]

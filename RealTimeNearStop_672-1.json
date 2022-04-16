@@ -1,0 +1,120 @@
+[
+    {
+      "PlateNumb": "282-U3",
+      "OperatorID": "700",
+      "RouteUID": "TPE10785",
+      "RouteID": "10785",
+      "RouteName": {
+        "Zh_tw": "672",
+        "En": "672"
+      },
+      "SubRouteUID": "TPE107850",
+      "SubRouteID": "107850",
+      "SubRouteName": {
+        "Zh_tw": "672",
+        "En": "672"
+      },
+      "Direction": 1,
+      "StopUID": "TPE38923",
+      "StopID": "38923",
+      "StopName": {
+        "Zh_tw": "公館",
+        "En": "Gongguan"
+      },
+      "StopSequence": 21,
+      "DutyStatus": 1,
+      "BusStatus": 0,
+      "A2EventType": 1,
+      "GPSTime": "2022-04-16T11:08:54+08:00",
+      "SrcUpdateTime": "2022-04-16T11:09:00+08:00",
+      "UpdateTime": "2022-04-16T11:09:03+08:00"
+    },
+    {
+      "PlateNumb": "731-U3",
+      "OperatorID": "700",
+      "RouteUID": "TPE10785",
+      "RouteID": "10785",
+      "RouteName": {
+        "Zh_tw": "672",
+        "En": "672"
+      },
+      "SubRouteUID": "TPE107850",
+      "SubRouteID": "107850",
+      "SubRouteName": {
+        "Zh_tw": "672",
+        "En": "672"
+      },
+      "Direction": 1,
+      "StopUID": "TPE38942",
+      "StopID": "38942",
+      "StopName": {
+        "Zh_tw": "中正環河路口",
+        "En": "Zhongzheng&Huanhe Rd.Intersection"
+      },
+      "StopSequence": 33,
+      "DutyStatus": 2,
+      "A2EventType": 1,
+      "GPSTime": "2022-04-16T11:05:01+08:00",
+      "SrcUpdateTime": "2022-04-16T11:09:00+08:00",
+      "UpdateTime": "2022-04-16T11:09:03+08:00"
+    },
+    {
+      "PlateNumb": "735-U3",
+      "OperatorID": "700",
+      "RouteUID": "TPE10785",
+      "RouteID": "10785",
+      "RouteName": {
+        "Zh_tw": "672",
+        "En": "672"
+      },
+      "SubRouteUID": "TPE107850",
+      "SubRouteID": "107850",
+      "SubRouteName": {
+        "Zh_tw": "672",
+        "En": "672"
+      },
+      "Direction": 1,
+      "StopUID": "TPE38942",
+      "StopID": "38942",
+      "StopName": {
+        "Zh_tw": "中正環河路口",
+        "En": "Zhongzheng&Huanhe Rd.Intersection"
+      },
+      "StopSequence": 33,
+      "DutyStatus": 2,
+      "A2EventType": 1,
+      "GPSTime": "2022-04-16T11:06:12+08:00",
+      "SrcUpdateTime": "2022-04-16T11:09:00+08:00",
+      "UpdateTime": "2022-04-16T11:09:03+08:00"
+    },
+    {
+      "PlateNumb": "FAA-162",
+      "OperatorID": "700",
+      "RouteUID": "TPE10785",
+      "RouteID": "10785",
+      "RouteName": {
+        "Zh_tw": "672",
+        "En": "672"
+      },
+      "SubRouteUID": "TPE107850",
+      "SubRouteID": "107850",
+      "SubRouteName": {
+        "Zh_tw": "672",
+        "En": "672"
+      },
+      "Direction": 1,
+      "StopUID": "TPE38914",
+      "StopID": "38914",
+      "StopName": {
+        "Zh_tw": "三張犁",
+        "En": "Sanzhangli"
+      },
+      "StopSequence": 12,
+      "DutyStatus": 1,
+      "BusStatus": 0,
+      "A2EventType": 1,
+      "GPSTime": "2022-04-16T11:08:31+08:00",
+      "SrcUpdateTime": "2022-04-16T11:09:00+08:00",
+      "UpdateTime": "2022-04-16T11:09:03+08:00"
+    }
+  ]

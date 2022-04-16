@@ -1,0 +1,92 @@
+[
+  {
+    "PlateNumb": "282-U3",
+    "OperatorID": "700",
+    "RouteUID": "TPE10785",
+    "RouteID": "10785",
+    "RouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "SubRouteUID": "TPE107850",
+    "SubRouteID": "107850",
+    "SubRouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "Direction": 1,
+    "StopUID": "TPE38930",
+    "StopID": "38930",
+    "StopName": {
+      "Zh_tw": "智光商職",
+      "En": "Chih-Kuang Senior Commercial & Industrial Vocational High School"
+    },
+    "StopSequence": 28,
+    "DutyStatus": 1,
+    "BusStatus": 0,
+    "A2EventType": 0,
+    "GPSTime": "2022-04-16T11:22:04+08:00",
+    "SrcUpdateTime": "2022-04-16T11:23:20+08:00",
+    "UpdateTime": "2022-04-16T11:23:23+08:00"
+  },
+  {
+    "PlateNumb": "FAA-159",
+    "OperatorID": "700",
+    "RouteUID": "TPE10785",
+    "RouteID": "10785",
+    "RouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "SubRouteUID": "TPE107850",
+    "SubRouteID": "107850",
+    "SubRouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "Direction": 1,
+    "StopUID": "TPE38906",
+    "StopID": "38906",
+    "StopName": {
+      "Zh_tw": "長壽公園",
+      "En": "Changshou Park"
+    },
+    "StopSequence": 4,
+    "DutyStatus": 1,
+    "BusStatus": 0,
+    "A2EventType": 1,
+    "GPSTime": "2022-04-16T11:23:12+08:00",
+    "SrcUpdateTime": "2022-04-16T11:23:20+08:00",
+    "UpdateTime": "2022-04-16T11:23:23+08:00"
+  },
+  {
+    "PlateNumb": "FAA-162",
+    "OperatorID": "700",
+    "RouteUID": "TPE10785",
+    "RouteID": "10785",
+    "RouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "SubRouteUID": "TPE107850",
+    "SubRouteID": "107850",
+    "SubRouteName": {
+      "Zh_tw": "672",
+      "En": "672"
+    },
+    "Direction": 1,
+    "StopUID": "TPE38925",
+    "StopID": "38925",
+    "StopName": {
+      "Zh_tw": "永元路",
+      "En": "Yongyuan Rd."
+    },
+    "StopSequence": 23,
+    "DutyStatus": 1,
+    "BusStatus": 0,
+    "A2EventType": 1,
+    "GPSTime": "2022-04-16T11:23:15+08:00",
+    "SrcUpdateTime": "2022-04-16T11:23:20+08:00",
+    "UpdateTime": "2022-04-16T11:23:23+08:00"
+  }
+]
